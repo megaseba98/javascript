@@ -1,0 +1,181 @@
+/*
+font-family: 'Source Sans Pro', sans-serif;
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*----------- NAV BAR ------------*/
+.iconos_redes{
+    width: 20px;
+    margin: 10px 5px;
+}
+
+.iconos_redes:hover{
+    transform: scale(1.1);
+}
+
+.logo_nav:hover{
+    transform: scale(1.1);
+}
+/*--------------------------------*/
+
+
+/*----------- BANNER ------------*/
+.banner{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/91368.jpg);
+}
+
+.caja{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 40%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    margin: auto;
+    border-radius: 20px;
+}
+
+
+@media all and (max-width: 768px){
+    .caja{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    margin: auto;
+    border-radius: 20px;
+    }
+}
+
+.caja_p{
+    font-size: 20px;
+}
+/*--------------------------------*/
+
+
+/*----------- NOSOTROS ------------*/
+.nosotros_cards{
+    padding: 30px;
+    background-color: /*#faf2d7;*/ #EFEEEB;
+}
+/*--------------------------------*/
+
+
+/*----------- PROMOCIONES ------------*/
+.promos{
+    padding: 10px;
+    background-color: /*#faf2d7;*/#EFEEEB;
+}
+/*--------------------------------*/
+
+/*----------- CONTACTO ------------*/
+
+.formulario{
+    background: rgba(0, 0, 0, .7);
+    padding: 20px;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
+}
+
+.banner_contacto{
+    height: auto;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/91368.jpg);
+}
+
+
+
+/*--------------------------------*/
+
+.card:hover{
+    transform: scale(1.03);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*----------FOOTER--------------*/
+
+.footer{
+    height: 30vh;
+    padding: 30px;
+    background-color: black;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.footer ul{
+    list-style: none;
+}   
+
+.whatsapp{
+    border-radius: 50px;
+    background-color: white;
+}
+
+/*----------- CARRITO ------------*/
+.carrito{
+    height: 100%;
+    padding: 100px;
+    text-align: center;
+    background-color: /*#faf2d7;*/ #EFEEEB;
+}
+
+.carrito_box{
+    padding: 5px;
+}
+
+#card_tienda:hover{
+    transform: scale(1.0);
+}
+
+.shopping-cart-items {
+    padding: 20px 0px;
+  }
+  
+  .shopping-cart-header {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .shopping-cart-image {
+    max-width: 80px;
+    border-radius: 20px;
+  }
+  
+  .shopping-cart-quantity-input {
+    max-width: 45px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #eee;
+    padding: 5px;
+  }
+  
+  .shopping-cart-total {
+    min-height: 96px;
+  }  
+/*--------------------------------*/
